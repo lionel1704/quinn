@@ -11,7 +11,7 @@ use futures::future;
 use lazy_static::lazy_static;
 use quinn_h3::Settings;
 use structopt::StructOpt;
-use tokio::io::AsyncReadExt;
+use futures_util::AsyncReadExt;
 use tracing::{error, info, warn};
 
 #[derive(StructOpt, Debug)]

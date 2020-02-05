@@ -9,6 +9,7 @@ default-run = "main"
 anyhow = "1.0.22"
 bytes = "0.5.2"
 futures = "0.3.1"
+futures-util = "0.3.1"
 http = "0.2"
 lazy_static = "1"
 quinn = { path = "../quinn" }
